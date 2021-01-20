@@ -1,6 +1,10 @@
 # loadbalanced-EV-charging
 Charging an EV maximally on solar energy taking into account SOC, scheduled departure and the weather forecast:
 
+## Charging station is based on a Smart EVSE solution
+- SMART EVSE charging station
+- notification of the desired charging current via serial rs-485
+    
 ## Smart home platform is based on loxone
 - solar plant power measurements
 - scheduled departure
@@ -21,10 +25,6 @@ Charging an EV maximally on solar energy taking into account SOC, scheduled depa
     
 ## Interaction between openHAB and Loxone is via openHAB Loxone Binding
 
-## Charging station is based on a Smart EVSE solution
-- SMART EVSE charging station
-- notification of the desired charging current via serial rs-485
-    
   
  
 
