@@ -4,7 +4,8 @@ Charging an EV maximally on solar energy taking into account SOC, scheduled depa
   ## Smart home platform is based on loxone
     - solar plant power measurements
     - scheduled departure
-    - calculations of desired charging power and charging start time = F(scheduled departure, estimated solar production, starting SOC, desired SOC)
+    - calculations of desired charging power and charging start time 
+    .. function of scheduled departure, estimated solar production, starting SOC, desired SOC
 
   ## EV integration is via openHAB Tesla Binding
     - reading of the SOC 
